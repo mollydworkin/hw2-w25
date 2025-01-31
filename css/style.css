@@ -18,25 +18,25 @@ h2 {
 
 }
 
-p{
+p {
     font-size: 24px;
     padding:10px 0 0 10px;
 }
 
-img{
+img {
     width: 250px;
     display:block;
     margin: 0 auto;
     border: 10px dashed #FFFFFF;
 }
 
-div{
+div {
     min-height: 125px;
     padding: 20px;
     border: 3px solid #FFFFFF;
 }
 
-.introduction{
+.introduction {
     border-radius:15px;
     margin-top: 15px;
     line-height: 2;
@@ -46,16 +46,16 @@ div{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border-style: solid;
+    border-width: 0 0 2px 5px; 
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px solid;
-    border-right: 5px solid;
+    border-style: solid;
+    border-width: 2px 5px 0 0;
 }
 
 .blue h1, .blue h2, .blue p{
@@ -66,8 +66,8 @@ div{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border-style: solid;
+    border-width: 0 0 2px 5px;
 }
 
 .yellow p {
@@ -78,8 +78,8 @@ div{
     background-color: #008500; /* Alternative options: #008500, #00D800 */
     text-align: left;
     margin-right: 50px;
-    border-top: 2px solid;
-    border-right: 5px solid;
+    border-style: solid;
+    border-width: 2px 5px 0 0;
 }
 
 footer {
